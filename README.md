@@ -1,6 +1,7 @@
 # dashboard
 
 ![screenshot](/screenshot.png?raw=true)
+![screenshot](/screenshot-centos7-fluxbox.png?raw=true)
 
 ```
 ~/.conky/conky_dashboard.lua
