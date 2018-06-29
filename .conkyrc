@@ -1,3 +1,6 @@
+# from
+# https://github.com/He4eT/conky-dashboard
+
 background no
 update_interval 1
 
@@ -18,12 +21,12 @@ own_window_argb_visual yes
 border_inner_margin 0
 border_outer_margin 0
 
-minimum_size 450 900
+minimum_size 450 710
 maximum_width 750
 
-alignment tr
-gap_x 35
-gap_y 35
+alignment br
+gap_x 15
+gap_y 15
 
 # Graphics settings #
 draw_shades no
@@ -51,7 +54,7 @@ ${color FFFFFF}${goto 0}${voffset 65}${cpu cpu0}%
 ${color FFFFFF}${goto 0}CPU
 ${color FFFFFF}${goto 215}${voffset 45}${memperc}%
 ${color FFFFFF}${goto 215}RAM
-${color FFFFFF}${goto 70}${voffset -38}${fs_used_perc /}%
+${color FFFFFF}${goto 70}${voffset -38}${fs_used_perc /home}%
 ${color FFFFFF}${goto 70}SSD
 ${color FFFFFF}${goto 90}${voffset 25}${if_up wlan0}${downspeed wlan0}${endif}
 ${color FFFFFF}${goto 90}${if_up wlan0}${upspeed wlan0}${endif} 
